@@ -1,0 +1,296 @@
+[
+  {
+    "id": "tomato_healthy",
+    "crop": "Tomato",
+    "disease": "Healthy",
+    "scientificName": "Solanum lycopersicum",
+    "isHealthy": true,
+    "description": "The tomato foliage exhibits vibrant green coloration, uniform leaf blade architecture, and no visible fungal, bacterial, or necrotic lesions.",
+    "symptoms": [
+      "Lush, uniform green leaf coloration",
+      "Intact vein structure without interveinal chlorosis",
+      "Absence of concentric ring spots or water-soaked lesions",
+      "Sturdy petiole and vigorous vegetative growth"
+    ],
+    "causes": [
+      "Balanced soil nutrients (adequate N-P-K and calcium)",
+      "Optimal irrigation schedule avoiding leaf wetness",
+      "Good air circulation and full sun exposure"
+    ],
+    "prevention": [
+      "Maintain consistent drip irrigation at the root zone",
+      "Mulch soil to prevent rain-splash from soil pathogens",
+      "Prune lower foliage that contacts soil",
+      "Practice 3-4 year crop rotation away from solanaceous crops"
+    ],
+    "management": [
+      "Continue routine weekly scouting",
+      "Ensure staking or caging allows 50cm+ spacing between plants",
+      "Sanitize pruning tools with 70% isopropyl alcohol between rows"
+    ],
+    "warning": "Healthy foliage should continue to be monitored weekly, particularly following heavy precipitation or high humidity spells.",
+    "sources": ["UC Davis IPM - Tomato Culture", "USDA Agricultural Research Service"],
+    "typicalSeverityRange": [0, 2]
+  },
+  {
+    "id": "tomato_early_blight",
+    "crop": "Tomato",
+    "disease": "Early Blight",
+    "scientificName": "Alternaria solani",
+    "isHealthy": false,
+    "description": "Early blight is a common fungal disease characterized by brown-to-black necrotic lesions exhibiting a distinctive concentric ring or 'bullseye' pattern, typically starting on older, lower leaves.",
+    "symptoms": [
+      "Circular brown spots with characteristic concentric rings (target-board appearance)",
+      "Chlorotic yellow halos encircling the necrotic lesions",
+      "Premature yellowing and defoliation progressing upward from lower canopy",
+      "Sunscald risk on developing fruit due to lost leaf cover"
+    ],
+    "causes": [
+      "Fungal pathogen Alternaria solani surviving in plant debris or solanaceous weeds",
+      "Prolonged leaf wetness combined with warm temperatures (24-29°C / 75-85°F)",
+      "Rain splash spreading fungal spores from soil to lower foliage",
+      "Stressed or nutrient-depleted plants"
+    ],
+    "prevention": [
+      "Apply organic or plastic mulch around the base of plants to block spore splash",
+      "Water exclusively at soil level using drip or soaker hoses; avoid overhead sprinklers",
+      "Provide wide plant spacing (60-90 cm) for maximum airflow and rapid canopy drying",
+      "Rotate crops on a 3-year cycle away from tomatoes, potatoes, and eggplants",
+      "Plant certified disease-tolerant or resistant cultivars (e.g., Mountain Supreme, Defiant)"
+    ],
+    "management": [
+      "Immediately prune off severely affected lower leaves during dry weather and bag them; do NOT compost infected leaves",
+      "Stake and cage plants to elevate all foliage off the ground",
+      "Apply protective preventive bio-fungicides (such as Bacillus subtilis or copper hydroxide) according to local extension labels when conditions favor infection",
+      "Clear and destroy all crop residues at the conclusion of the growing season"
+    ],
+    "warning": "Always follow local agricultural extension guidelines. This diagnostic system is an informational decision-support tool and does not replace on-field laboratory verification.",
+    "sources": ["UC IPM Pest Management Guidelines - Tomato Early Blight", "Cornell Cooperative Extension - Vegetable Pathology"],
+    "typicalSeverityRange": [10, 45]
+  },
+  {
+    "id": "tomato_late_blight",
+    "crop": "Tomato",
+    "disease": "Late Blight",
+    "scientificName": "Phytophthora infestans",
+    "isHealthy": false,
+    "description": "Late blight is an aggressive oomycete pathogen capable of devastating tomato and potato canopies within days during cool, humid, and rainy weather. Produces irregular water-soaked pale-to-dark olive lesions.",
+    "symptoms": [
+      "Irregular, water-soaked, dark-green to purplish-brown lesions on leaves and petioles",
+      "Delicate white fuzzy fungal-like sporulation on the underside of leaves during high humidity",
+      "Rapid collapse, browning, and shriveling of entire leaf branches",
+      "Brown greasy-looking firm rot patches on developing green or ripe tomatoes"
+    ],
+    "causes": [
+      "Oomycete organism Phytophthora infestans transported by windborne sporangia",
+      "Cool to moderate temperatures (15-22°C / 60-72°F) accompanied by relative humidity above 85%",
+      "Extended morning dew or frequent rainfall keeping foliage wet for 10+ hours"
+    ],
+    "prevention": [
+      "Inspect transplants carefully and plant only certified disease-free seedlings",
+      "Eliminate volunteer potato and tomato plants within 1 km of production fields",
+      "Select resistant tomato cultivars (e.g., Mountain Magic, Iron Lady, Plum Regal)",
+      "Avoid overhead irrigation entirely; ensure optimal solar orientation for rapid morning dry-off"
+    ],
+    "management": [
+      "Immediately isolate infected zones and rogue out heavily infected plants in plastic bags to stop airborne spore release",
+      "Alert neighboring growers as late blight spores can disperse miles on wind currents",
+      "If caught at the earliest stage, apply approved copper-based protectant sprays under the supervision of a licensed agronomist",
+      "Ensure no cull piles or infected tubers are left exposed in the field"
+    ],
+    "warning": "Late blight spreads rapidly and can cause 100% crop loss if left unmanaged. Notify regional agricultural extension officers upon confirmed detection.",
+    "sources": ["FAO Plant Production and Protection Guidelines", "University of Florida IFAS Extension - Tomato Late Blight"],
+    "typicalSeverityRange": [25, 75]
+  },
+  {
+    "id": "potato_healthy",
+    "crop": "Potato",
+    "disease": "Healthy",
+    "scientificName": "Solanum tuberosum",
+    "isHealthy": true,
+    "description": "Vigorous potato foliage with rich dark green leaflets, balanced canopy density, and no necrotic speckling or chlorosis.",
+    "symptoms": [
+      "Crisp, uniform green leaflets with well-defined margins",
+      "Healthy upright stems without dark streaking",
+      "Vigorous tuber-initiation foliage without curling or spotting"
+    ],
+    "causes": [
+      "Certified clean seed tubers planted in well-drained, acidic soil (pH 5.0-6.0)",
+      "Adequate soil hilling protecting tubers and roots",
+      "Controlled moisture without waterlogging"
+    ],
+    "prevention": [
+      "Plant certified seed potatoes only",
+      "Maintain adequate hilling to protect tubers from light and soil pathogens",
+      "Maintain optimal nitrogen levels (excessive nitrogen promotes overly lush, susceptible foliage)"
+    ],
+    "management": [
+      "Perform regular field transect walks to inspect lower canopies",
+      "Keep field borders clean of wild nightshade weeds"
+    ],
+    "warning": "Maintain consistent scouting, particularly during tuber bulking stages.",
+    "sources": ["International Potato Center (CIP)", "Idaho Potato Commission Production Guide"],
+    "typicalSeverityRange": [0, 3]
+  },
+  {
+    "id": "potato_early_blight",
+    "crop": "Potato",
+    "disease": "Early Blight",
+    "scientificName": "Alternaria solani",
+    "isHealthy": false,
+    "description": "Fungal disease in potatoes causing dark brown angular or circular spots on foliage with concentric ridges. Accelerates foliage senescence and reduces tuber yield.",
+    "symptoms": [
+      "Dark brown to black circular lesions on older leaflets with concentric rings",
+      "Yellowing tissue surrounding lesion borders that coalesces as infection spreads",
+      "Dry, papery texture of severely infected leaves that remain hanging on the vine",
+      "Dark, sunken, leathery lesions on harvested tubers with raised margins"
+    ],
+    "causes": [
+      "Alternaria solani spores overwintering in previous potato vine residue",
+      "Cycles of wet conditions followed by warm dry winds promoting spore release",
+      "Physiologically aging or potassium-deficient potato plants"
+    ],
+    "prevention": [
+      "Provide balanced crop nutrition with adequate potassium and split nitrogen applications",
+      "Utilize long rotations (at least 3 to 4 years) away from potato, tomato, and eggplant",
+      "Schedule irrigation early in the morning so potato vines dry completely before midday",
+      "Choose medium-to-late maturing varieties that demonstrate higher field tolerance"
+    ],
+    "management": [
+      "Remove diseased vines prior to harvest or vine-kill effectively to prevent spore transfer to tubers",
+      "Apply protective botanical or chemical treatments registered for potato early blight at row closure",
+      "Allow tubers to mature in the ground for 10-14 days after vine desiccation to thicken skin before harvesting"
+    ],
+    "warning": "Do not harvest when soil is wet as soil abrasions can introduce Alternaria spores into potato tubers.",
+    "sources": ["North Dakota State University Extension - Potato Early Blight", "CABI Digital Library"],
+    "typicalSeverityRange": [8, 40]
+  },
+  {
+    "id": "potato_late_blight",
+    "crop": "Potato",
+    "disease": "Late Blight",
+    "scientificName": "Phytophthora infestans",
+    "isHealthy": false,
+    "description": "The notorious pathogen responsible for the Irish Potato Famine. Attacks both potato foliage and tubers with rapid necrosis under cool, wet climatic conditions.",
+    "symptoms": [
+      "Pale green water-soaked spots enlarging rapidly into large dark brown or purplish-black lesions",
+      "White mildew-like sporulation visible on the undersides of leaves during damp conditions",
+      "Stems show dark brown greasy lesions that cause stems to snap easily",
+      "Tubers exhibit dry, granular, reddish-brown rot spreading from the surface inwards"
+    ],
+    "causes": [
+      "Infected seed tubers planted in spring or unharvested cull potatoes in nearby dumps",
+      "Continuous foliage wetness for >8 hours under temperatures of 12-24°C (53-75°F)",
+      "High relative humidity (>90%) facilitating rapid sporulation"
+    ],
+    "prevention": [
+      "Use certified disease-free seed tubers with zero late blight tolerance",
+      "Destroy all cull piles by burying under at least 2 feet of soil or covering with black plastic",
+      "Plant tolerant varieties (e.g., Sarpo Mira, Defender, Elba)",
+      "Avoid poorly drained sections of the field where moisture pools"
+    ],
+    "management": [
+      "Destroy localized infection hot spots immediately by flaming or desiccating plants within a 5-meter radius",
+      "Apply approved protective fungicides prior to canopy closure when disease warning models indicate high risk",
+      "Ensure vines are 100% dead for a minimum of 2 weeks before harvest to prevent tuber contamination"
+    ],
+    "warning": "Immediate containment is imperative. Late blight can destroy an entire field within 7 to 10 days.",
+    "sources": ["International Potato Center (CIP)", "Cornell University - Potato Late Blight"],
+    "typicalSeverityRange": [20, 80]
+  },
+  {
+    "id": "corn_healthy",
+    "crop": "Corn",
+    "disease": "Healthy",
+    "scientificName": "Zea mays",
+    "isHealthy": true,
+    "description": "Healthy maize foliage featuring robust, elongated linear leaves with clean margins, prominent central midrib, and no rust pustules or elongated blights.",
+    "symptoms": [
+      "Even green coloration across entire leaf blade",
+      "Clear midrib and absence of powdery pustules",
+      "Unrestricted leaf photosynthetic area supporting ear development"
+    ],
+    "causes": [
+      "Optimal soil pH (6.0-6.8) and balanced nitrogen fertilization",
+      "Adequate soil drainage and appropriate plant population density",
+      "Good weed competition suppression"
+    ],
+    "prevention": [
+      "Follow regional soil-test nitrogen and phosphorus recommendations",
+      "Maintain 75 cm row spacing to optimize sunlight penetration and air movement",
+      "Rotate fields with legumes (soybeans/alfalfa) to replenish soil health"
+    ],
+    "management": [
+      "Scout fields at V6 (six-leaf collar) and VT (tasseling) stages",
+      "Keep field records of hybrid performance"
+    ],
+    "warning": "Continue regular scouting throughout the silking and grain filling periods.",
+    "sources": ["Purdue University Extension - Corn Field Guide", "Iowa State University Extension"],
+    "typicalSeverityRange": [0, 2]
+  },
+  {
+    "id": "corn_common_rust",
+    "crop": "Corn",
+    "disease": "Common Rust",
+    "scientificName": "Puccinia sorghi",
+    "isHealthy": false,
+    "description": "Fungal infection causing small, circular-to-elongate golden-brown to cinnamon-brown pustules scattered across both the upper and lower leaf surfaces of maize.",
+    "symptoms": [
+      "Small, elevated, oval pustules on both upper and lower leaf surfaces",
+      "Pustules rupture the leaf epidermis, releasing powdery cinnamon-brown urediniospores",
+      "Chlorotic ring often forms around clusters of pustules",
+      "Severe infection causes premature leaf yellowing and dieback"
+    ],
+    "causes": [
+      "Puccinia sorghi fungal spores carried on southerly winds from tropical/subtropical zones",
+      "Cool to moderate temperatures (16-25°C / 60-77°F) with high relative humidity (>95%)",
+      "Free moisture on leaves from overnight dew lasting 6-8 hours"
+    ],
+    "prevention": [
+      "Plant resistant or tolerant corn hybrids with Rp-resistance genes",
+      "Plant early in the season so grain fill occurs prior to peak spore migration",
+      "Avoid planting susceptible sweet corn varieties directly downwind of early field corn"
+    ],
+    "management": [
+      "Scout mid-canopy leaves before tasseling (V8 to VT); evaluate rust severity on the ear leaf",
+      "If pustules cover >10% of ear leaf area before blister (R2) stage and conditions favor spread, consult an agronomist for targeted foliar treatment",
+      "Hot and dry weather (>30°C / 86°F) naturally suppresses rust development"
+    ],
+    "warning": "Common rust is typically less devastating than Southern Rust, but sweet corn and inbred seed lines require proactive monitoring.",
+    "sources": ["University of Illinois Extension - Corn Diseases", "Purdue Extension - Common Rust of Corn"],
+    "typicalSeverityRange": [5, 35]
+  },
+  {
+    "id": "corn_northern_leaf_blight",
+    "crop": "Corn",
+    "disease": "Northern Leaf Blight",
+    "scientificName": "Exserohilum turcicum",
+    "isHealthy": false,
+    "description": "A destructive fungal foliar disease of maize producing characteristic long, elliptical, cigar-shaped grayish-green to tan lesions.",
+    "symptoms": [
+      "Elongated, elliptical lesions (2.5 to 15 cm long) shaped like cigars",
+      "Initial lesions appear grayish-green, turning tan as tissue becomes necrotic",
+      "Dark olive or black fungal spores visible in the center of lesions under humid conditions",
+      "Multiple lesions coalesce, causing extensive blighting of entire leaf blades"
+    ],
+    "causes": [
+      "Exserohilum turcicum fungus overwintering on infested corn residue on the soil surface",
+      "Moderate temperatures (18-27°C / 65-80°F) accompanied by extended periods of wet weather (6-18 hours dew/rain)",
+      "Continuous no-till or minimum-till corn-on-corn cropping systems"
+    ],
+    "prevention": [
+      "Select corn hybrids containing Ht-resistance genes (Ht1, Ht2, Ht3, or polygenic resistance)",
+      "Rotate to non-host crops such as soybeans, wheat, or legumes for at least one to two years",
+      "Tillage management: Incorporate crop debris into the soil where residue-dwelling fungi decompose faster",
+      "Ensure balanced soil potassium as low potassium levels increase susceptibility"
+    ],
+    "management": [
+      "Scout leaves below the ear before tasseling and monitor progression onto the ear leaf",
+      "Prioritize management if disease reaches the ear leaf or higher before R2 (blister) stage",
+      "Foliar protectants can be considered in high-yield commercial fields if threshold is reached on susceptible hybrids"
+    ],
+    "warning": "Severe infection before or during pollination can lead to grain yield losses exceeding 30-50% due to loss of photosynthetic canopy.",
+    "sources": ["Iowa State University Crop Protection Network - Northern Corn Leaf Blight", "CABI Plantwise"],
+    "typicalSeverityRange": [15, 60]
+  }
+]
